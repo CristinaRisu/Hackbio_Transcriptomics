@@ -1,5 +1,5 @@
 # Hackbio_Transcriptomics
-This is the Hackbio Transcriptomics biostack repository
+Welcome to the Hackbio Transcriptomics biostack repository
 
 
 
