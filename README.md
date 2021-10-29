@@ -62,6 +62,7 @@ To complete the GO analysis, goseq also provides a list of the genes involved in
 
 ### KEGG Pathway analysis
 Over-represented KEGG terms:
+![Over-represented KEGG terms](https://user-images.githubusercontent.com/68198076/139476055-c7b0f725-1f59-45ad-86dc-b249fa0fc5e6.PNG)
 
 
 Under-Represented KEGG terms:
