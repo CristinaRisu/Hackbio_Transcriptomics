@@ -15,7 +15,7 @@ We compared the genes expression in;
 
 Method
 
-## 1. Dataset upload into Galazy
+## 1. Dataset upload into Galaxy
 ## 2. Quality Control : FastQC and Cutadapt
 ## 3. Mapping: RNA STAR visualized using IGV
 ## 4. Quantification: featureCounts
