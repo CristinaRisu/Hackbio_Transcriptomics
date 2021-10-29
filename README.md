@@ -18,6 +18,10 @@ Method
 ## 1. Dataset upload into Galaxy
 ## 2. Quality Control : FastQC and Cutadapt
 ## 3. Mapping: RNA STAR visualized using IGV
+We have used the trimmed or quality controlled sequences for mapping, it was necessary to know from where the sequence originated from in the genome. Since in this tutorial authors used the Drosophila melanogaster cells, we used the reference genome of Drosophila melanogaster dm6.
+Now in eukaryotic genomes, transcriptomes arise from processed mRNA, i.e Spliced. So to map efficiently we imported the spliced annotation of D. melanogaster and used RNA STAR for mapping.
+
+
 ## 4. Quantification: featureCounts
 ## 5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
 
