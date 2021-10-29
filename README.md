@@ -71,10 +71,14 @@ In contrary to the tutorial, the KEGG pathway analysis resulted in 4 over-repres
     3. Pentose Phosphate Pathway
     
     4. Glutathione Metabolism
+    
+
 Over-represented KEGG terms:
 
 
 ![Over-represented KEGG terms](https://user-images.githubusercontent.com/68198076/139476055-c7b0f725-1f59-45ad-86dc-b249fa0fc5e6.PNG)
 
 
+
+There was no under-represented term observed
 Under-Represented KEGG terms:
