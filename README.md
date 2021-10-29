@@ -69,7 +69,7 @@ In contrary to the tutorial, the KEGG pathway analysis resulted in 4 over-repres
     
     2. Glycolysis/Gluconeogenesis Pathway
     
-    ![KEGG_Pathway_Analysis_Gycolysis_Gluconeogenesis](https://user-images.githubusercontent.com/68198076/139478827-e8538cc8-9fa3-4fa5-a69b-5e59dcd9aa13.png)
+   ![KEGG_Pathway_Analysis_Gycolysis_Gluconeogenesis](https://user-images.githubusercontent.com/68198076/139478827-e8538cc8-9fa3-4fa5-a69b-5e59dcd9aa13.png)
     
     3. Pentose Phosphate Pathway
     
