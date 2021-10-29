@@ -45,6 +45,24 @@ FastQC report revealed some duplicate reads, to assess the percentage of those w
 
 The percentage of duplicates were acceptable for both our samples.
 
+#### iii) Number of reads mapped to each chromosome using Samtools idxstats
+To assess the quality of samples, i.e whether some genes are highly expressed over the other, we did SamTools Idxstats, to know the number of reads mapped to each chromosomes.
+
+![stats 2](https://user-images.githubusercontent.com/92271396/139481202-98c5d912-6d9f-4384-998e-119c1d29ded3.jpg)
+The reads mapped mostly to chromosome 2 (chr2L and chr2R), 3 (chr3L and chr3R) and X.
+
+![1](https://user-images.githubusercontent.com/92271396/139481270-fe861e02-2748-4ced-b3eb-40b84ecffc3b.png)
+Most of the reads map to X(97.8%) and only a few to Y(2.2%) indicating there are probably not many genes on Y, so the samples are probably both female.
+
+#### iv) Gene Body Coverage
+And then we checked the Gene Body Coverage, to evaluate the uniformity and check for 5’/3’ bias.
+![2](https://user-images.githubusercontent.com/92271396/139481521-89a61c93-6c9c-4ffe-8c17-f564ca528e5a.png)
+The analysis gave the results, that the gene body coverage is quite even, as evident from the plot.
+
+
+
+
+
 
 
  
@@ -97,11 +115,9 @@ In contrary to the tutorial, the KEGG pathway analysis resulted in 4 over-repres
     
     3. Pentose Phosphate Pathway
     
-   ![Pentose_Phosphate_Pathway](https://user-images.githubusercontent.com/68198076/139480939-2ff4dd6e-eec9-4f43-9726-b362b18627dc.png)
-    
     4. Glutathione Metabolism
     
-   ![Glutathione_metabolism](https://user-images.githubusercontent.com/68198076/139480952-37cc4708-64e1-41a0-8e10-63eabfa2cb50.png)
+
 Over-represented KEGG terms:
 
 
