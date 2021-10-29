@@ -20,7 +20,7 @@ Method
 ## 3. Mapping: RNA STAR visualized using IGV
 We have used the trimmed or quality controlled sequences for mapping, it was necessary to know from where the sequence originated from in the genome. Since in this tutorial authors used the Drosophila melanogaster cells, we used the reference genome of Drosophila melanogaster dm6.
 Now in eukaryotic genomes, transcriptomes arise from processed mRNA, i.e Spliced. So to map efficiently we imported the spliced annotation of D. melanogaster and used RNA STAR for mapping.
-### RNA-STAR
+### -> RNA-STAR
 ![rna star](https://user-images.githubusercontent.com/92271396/139474763-e48f8ee4-3fd6-40f0-a329-35fe22497401.png)
 
 This was the Alignment scores that were obtained
@@ -28,6 +28,20 @@ This was the Alignment scores that were obtained
 ![data](https://user-images.githubusercontent.com/92271396/139475289-78246e72-f581-4fb4-9424-0fbc3ba647e7.png)
 
 For GSM461177, 83.1% reads are mapped exactly once
+
+### -> Inspection of mapping results
+#### Visualization using local Integrative Genomics Viewer (IGV) 
+![igv](https://user-images.githubusercontent.com/92271396/139480360-d11dfd0b-b8dd-4678-9189-7705781f92e4.png)
+ The connecting lines between some of the alignments represents the reads that were mapped against introns i.e Splice sites.
+ 
+ We then plotted the Sashimi Plot that gave us a better visualisation for the position of spliced junctions(RED ARCS)
+ ![sashimi](https://user-images.githubusercontent.com/92271396/139480485-46d55743-d7ab-4fe6-bda8-b91b5f87cc22.png)
+
+ 
+ 
+
+
+
 
 
 
