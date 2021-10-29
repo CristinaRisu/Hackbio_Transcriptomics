@@ -20,7 +20,17 @@ Method
 ## 3. Mapping: RNA STAR visualized using IGV
 We have used the trimmed or quality controlled sequences for mapping, it was necessary to know from where the sequence originated from in the genome. Since in this tutorial authors used the Drosophila melanogaster cells, we used the reference genome of Drosophila melanogaster dm6.
 Now in eukaryotic genomes, transcriptomes arise from processed mRNA, i.e Spliced. So to map efficiently we imported the spliced annotation of D. melanogaster and used RNA STAR for mapping.
+### RNA-STAR
+![rna star](https://user-images.githubusercontent.com/92271396/139474763-e48f8ee4-3fd6-40f0-a329-35fe22497401.png)
+
+This was the Alignment scores that were obtained
+
 ![data](https://user-images.githubusercontent.com/92271396/139475289-78246e72-f581-4fb4-9424-0fbc3ba647e7.png)
+
+For GSM461177, 83.1% reads are mapped exactly once
+
+
+
 
 ## 4. Quantification: featureCounts
 ## 5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
