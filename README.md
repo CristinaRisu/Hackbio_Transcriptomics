@@ -15,14 +15,15 @@ We compared the genes expression in;
 
 Method
 
-1. Dataset upload into Galazy
-2. Quality Control : FastQC and Cutadapt
-3. Mapping: RNA STAR visualized using IGV
-4. Quantification: featureCounts
-5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
-6. Fuctional Enrichment Analysis using goseq
+## 1. Dataset upload into Galazy
+## 2. Quality Control : FastQC and Cutadapt
+## 3. Mapping: RNA STAR visualized using IGV
+## 4. Quantification: featureCounts
+## 5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
 
-## Gene Ontology analysis
+## 6. Fuctional Enrichment Analysis using goseq
+
+### Gene Ontology analysis
     
 Once we have obtained the list of differentially expressed genes between the Drosophila Wildtype and PasillaDepleted samples, the aim is to find out which biological      processes are most affected by these genes. For this purpose, using Galaxy's goseq tool, we performed a gene ontology (GO) analysis for three types of ontology: 
 - MF (Molecular Function - molecular activities of gene products)
@@ -45,5 +46,5 @@ In addition, the analysis also returns a graph showing the most over-represented
 To complete the GO analysis, goseq also provides a list of the genes involved in each GO term in tabular format:
 ![image](https://user-images.githubusercontent.com/92274646/139453243-4017b1ae-f5f7-43d0-816a-bbcef0bd2d3c.png)
 
-## KEGG Pathway analysis
+### KEGG Pathway analysis
 
