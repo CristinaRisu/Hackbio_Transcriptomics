@@ -59,6 +59,20 @@ And then we checked the Gene Body Coverage, to evaluate the uniformity and check
 ![2](https://user-images.githubusercontent.com/92271396/139481521-89a61c93-6c9c-4ffe-8c17-f564ca528e5a.png)
 The analysis gave the results, that the gene body coverage is quite even, as evident from the plot.
 
+#### v) Read distribution across features or regions
+The final step in inspection of Mapping results was to check the distribution of genes in exons, 3’ Untranslated regions(UTR) , 5’UTR, and introns, since its a RNA-seq analysis, mostly reads should map to exons and not introns.
+![3](https://user-images.githubusercontent.com/92271396/139481801-349b10b8-88ca-414a-b396-4fc15a1b25c7.jpg)
+![4](https://user-images.githubusercontent.com/92271396/139481845-0f4c9a1d-d050-4ca4-8608-026169eb70d6.png)
+For one of the sample the percentage of reads mapped to exons is 80% and that to introns is 2.4%
+![5](https://user-images.githubusercontent.com/92271396/139481894-5ac47b5e-4885-4037-bd11-b4675855fb29.png)
+For another sample the percentage of reads mapped to exons is 81.1% and that to introns is 2%
+
+These results confirm that our sequences were RNA-Seq data, and those were mapped successfully.
+
+
+
+
+
 
 
 
