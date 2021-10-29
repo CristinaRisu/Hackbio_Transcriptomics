@@ -61,6 +61,16 @@ To complete the GO analysis, goseq also provides a list of the genes involved in
 ![image](https://user-images.githubusercontent.com/92274646/139453243-4017b1ae-f5f7-43d0-816a-bbcef0bd2d3c.png)
 
 ### KEGG Pathway analysis
+
+In contrary to the tutorial, the KEGG pathway analysis resulted in 4 over-represented terms which included 
+
+    1. All metabolic pathways 
+
+    2. Glycolysis/Gluconeogenesis Pathway
+    
+    3. Pentose Phosphate Pathway
+    
+    4. Glutathione Metabolism
 Over-represented KEGG terms:
 
 
