@@ -30,12 +30,22 @@ This was the Alignment scores that were obtained
 For GSM461177, 83.1% reads are mapped exactly once
 
 ### -> Inspection of mapping results
-#### Visualization using local Integrative Genomics Viewer (IGV) 
+#### i) Visualization using local Integrative Genomics Viewer (IGV) 
 ![igv](https://user-images.githubusercontent.com/92271396/139480360-d11dfd0b-b8dd-4678-9189-7705781f92e4.png)
  The connecting lines between some of the alignments represents the reads that were mapped against introns i.e Splice sites.
  
  We then plotted the Sashimi Plot that gave us a better visualisation for the position of spliced junctions(RED ARCS)
  ![sashimi](https://user-images.githubusercontent.com/92271396/139480485-46d55743-d7ab-4fe6-bda8-b91b5f87cc22.png)
+ 
+ Further steps involved are for the more refined inspection of Mapping
+
+#### ii) Checking Duplicate reads using Mark Duplicates
+FastQC report revealed some duplicate reads, to assess the percentage of those we carried out Mark duplicates
+![stats](https://user-images.githubusercontent.com/92271396/139480851-f5efdf78-e1e0-4d18-a038-693f6a042c93.png)
+
+The percentage of duplicates were acceptable for both our samples.
+
+
 
  
  
