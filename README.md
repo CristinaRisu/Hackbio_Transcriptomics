@@ -142,3 +142,8 @@ Under-Represented term
 ![KEGG_Pathway_Analysis_Spiceosome](https://user-images.githubusercontent.com/68198076/139516559-b6217ddd-d7a8-4fe8-858b-d754edaa6965.png)
 
 
+
+##Reference
+
+This work was reproduced from  [Galaxy training on RNA-Seq analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#introduction)
+
