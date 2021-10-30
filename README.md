@@ -25,7 +25,7 @@ The FastQ files of the dataset were downloaded from [here](https://zenodo.org/re
 
 For sample GSM461177, 1.8% of bp was trimmed
 
-![GSM461177 Cutadapt](https://user-images.githubusercontent.com/68198076/139517060-eb13c924-e5e0-41f9-ab14-1e73d7340971.PNG
+![GSM461177 Cutadapt](https://user-images.githubusercontent.com/68198076/139517060-eb13c924-e5e0-41f9-ab14-1e73d7340971.PNG)
 
 For sample SSM461180, 6.8% of bp was trimmed
 
