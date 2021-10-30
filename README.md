@@ -13,11 +13,14 @@ We compared the genes expression in;
 
 3 treated samples (Pasilla gene depleted by RNAi): GSM461179, GSM461180, GSM461181
 
-The FastQ files of the dataset were downloaded from [here](https://zenodo.org/record/4541751)
+
 
 Method
 
 ## 1. Dataset upload into Galaxy
+
+The FastQ files of the dataset were downloaded from [here](https://zenodo.org/record/4541751)
+
 ## 2. Quality Control : FastQC and Cutadapt
 ## 3. Mapping: RNA STAR visualized using IGV
 We have used the trimmed or quality controlled sequences for mapping, it was necessary to know from where the sequence originated from in the genome. Since in this tutorial authors used the Drosophila melanogaster cells, we used the reference genome of Drosophila melanogaster dm6.
