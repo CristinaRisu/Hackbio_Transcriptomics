@@ -102,7 +102,7 @@ To complete the GO analysis, goseq also provides a list of the genes involved in
 
 ### KEGG Pathway analysis
 
-In contrary to the tutorial, the KEGG pathway analysis resulted in 4 over-represented terms which included 
+Similar to the tutorial, the KEGG pathway analysis resulted in 2 over-represented terms which included 
 
     1. All metabolic pathways 
     
@@ -111,9 +111,6 @@ In contrary to the tutorial, the KEGG pathway analysis resulted in 4 over-repres
     
    ![KEGG_Pathway_Analysis_Gycolysis_Gluconeogenesis](https://user-images.githubusercontent.com/68198076/139478827-e8538cc8-9fa3-4fa5-a69b-5e59dcd9aa13.png)
     
-    3. Pentose Phosphate Pathway
-    
-    4. Glutathione Metabolism
     
 
 Over-represented KEGG terms:
@@ -123,5 +120,10 @@ Over-represented KEGG terms:
 
 
 
-There was no under-represented term observed
-Under-Represented KEGG terms:
+There was one under-represented term observed within the Spliceosome
+
+Under-Represented term
+
+![KEGG_Pathway_Analysis_Spiceosome](https://user-images.githubusercontent.com/68198076/139516559-b6217ddd-d7a8-4fe8-858b-d754edaa6965.png)
+
+
