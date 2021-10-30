@@ -13,6 +13,8 @@ We compared the genes expression in;
 
 3 treated samples (Pasilla gene depleted by RNAi): GSM461179, GSM461180, GSM461181
 
+The FastQ files of the dataset were downloaded from [here](https://zenodo.org/record/4541751)
+
 Method
 
 ## 1. Dataset upload into Galaxy
