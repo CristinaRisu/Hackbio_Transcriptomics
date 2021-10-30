@@ -157,10 +157,10 @@ Under-Represented term
 This work was reproduced from  [Galaxy training on RNA-Seq analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html#introduction)
 
 
-### Hackbio_Transcriptomics_Team Contributors
-#    @miriamdarwish  - Quality Control
-#    @shubhangi-chakraborty & Archivicky4 - Mapping
-#    @PratikshaBhat - Counting / Quantification
-#    @SalmaElShafie - Gene Expression analysis
-#    @CrisRisu - Gene Ontology analysis 
-#    @SMB - KEGG Pathway analysis
+#    Hackbio_Transcriptomics_Team Contributors
+##    @miriamdarwish  - Quality Control
+##    @shubhangi-chakraborty & Archivicky4 - Mapping
+##    @PratikshaBhat - Counting / Quantification
+##    @SalmaElShafie - Gene Expression analysis
+##    @CrisRisu - Gene Ontology analysis 
+##    @SMB - KEGG Pathway analysis
