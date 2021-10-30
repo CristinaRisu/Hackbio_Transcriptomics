@@ -23,7 +23,7 @@ The FastQ files of the dataset were downloaded from [here](https://zenodo.org/re
 
 ## 2. Quality Control : FastQC and Cutadapt
     FastQC
- FastQC report for sample [GSM461177](url) and [GSM461180](url)  
+ FastQC report for sample [GSM461177](https://github.com/S-m-Baffoe/Hackbio_Transcriptomics/blob/main/GSM461177.pdf) and [GSM461180](https://github.com/S-m-Baffoe/Hackbio_Transcriptomics/blob/main/GSM461180.pdf)  
 
     Trimming:
 For sample GSM461177, 1.8% of bp was trimmed
