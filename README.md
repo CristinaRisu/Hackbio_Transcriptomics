@@ -97,8 +97,28 @@ For another sample the percentage of reads mapped to exons is 81.1% and that to 
 These results confirm that our sequences were RNA-Seq data, and those were mapped successfully.
 
 ## 4. Quantification: featureCounts
+The next step is to quantify the number of reads mapped to the exon of the gene
+Libraray Strandness was determined by Infer Experiment galaxy tool
+For GSM461177 – Untreated sample
+46.49% of the reads were assigned to the forward strand and 43.88% of the reads were assigned to the reverse strand. This indicated that the library was unstranded for the sample.
+For GSM461180 – Treated sample
+45.24% of the reads were assigned to the forward strand and 45.38% of the reads were assigned to the reverse strand. This indicated that the library was unstranded for the sample.
+
+Counting reads per gene 
+Galaxy tool FeatureCounts was used to count the number of reads per annotated gene.
+![image](https://user-images.githubusercontent.com/92260802/139520675-1d48747c-a19f-4fcb-a1f2-52a68c135837.png)
+![image](https://user-images.githubusercontent.com/92260802/139520686-62218e34-1bde-4b73-8d9f-e2d2e112c635.png)
+
+To determine most feature count in two sample
+Sort galaxy tool in descending order
+GSM461177
+![image](https://user-images.githubusercontent.com/92260802/139520710-d3af47bd-92ca-448d-ac18-9e140e6cee98.png)
+GSM461180
+![image](https://user-images.githubusercontent.com/92260802/139520722-85e67853-97d9-4726-bba3-d568911eba3c.png)
+FBgn0000556 id the feature with most counts in both sample with 128741 counts in untreated and 127416 counts in treated
 
 Summary of quantification can be found [here](https://github.com/S-m-Baffoe/Hackbio_Transcriptomics/blob/main/Counting%20reads.pptx)
+
 ## 5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
 ![PCAplot](https://user-images.githubusercontent.com/92435273/139514601-d2da908a-26e4-49bc-ad05-8a31c36ed699.png)
 
