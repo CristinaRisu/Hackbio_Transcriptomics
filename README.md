@@ -73,6 +73,7 @@ These results confirm that our sequences were RNA-Seq data, and those were mappe
 
 ## 4. Quantification: featureCounts
 ## 5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
+![PCAplot](https://user-images.githubusercontent.com/92435273/139514601-d2da908a-26e4-49bc-ad05-8a31c36ed699.png)
 
 ## 6. Fuctional Enrichment Analysis using goseq
 
