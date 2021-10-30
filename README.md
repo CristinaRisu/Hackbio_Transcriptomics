@@ -97,6 +97,8 @@ For another sample the percentage of reads mapped to exons is 81.1% and that to 
 These results confirm that our sequences were RNA-Seq data, and those were mapped successfully.
 
 ## 4. Quantification: featureCounts
+
+Summary of quantification can be found [here](https://github.com/S-m-Baffoe/Hackbio_Transcriptomics/blob/main/Counting%20reads.pptx)
 ## 5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
 ![PCAplot](https://user-images.githubusercontent.com/92435273/139514601-d2da908a-26e4-49bc-ad05-8a31c36ed699.png)
 
