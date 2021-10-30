@@ -126,7 +126,25 @@ FBgn0000556 id the feature with most counts in both sample with 128741 counts in
 Summary of quantification can be found [here](https://github.com/S-m-Baffoe/Hackbio_Transcriptomics/blob/main/Counting%20reads.pptx)
 
 ## 5. Differential Expression: Deseq2-read count,normalize and extract differentially expressed genes. (Heatmap2-for visualization)
+Deseq2 was used to normalize the expression taking into account sequencing depth, gene length and sequencing composition variation in our dataset samples
+
+As initial exploratory analysis on the data a dimension reduction PCA plot was made and it was clear that PC1 could differentiate samples according to their treatment and also PC2 could differentiate samples according to sequencing (paired vs. single end sequencing) this shows that first of all, there was differential gene expression that could clearly cluster treated from untreated samples, but also that sequrncing type affects the differential gene expression abd was therefore important to add in our design model as we did 
+
 ![PCAplot](https://user-images.githubusercontent.com/92435273/139514601-d2da908a-26e4-49bc-ad05-8a31c36ed699.png)
+
+Also as QC exploratory check, A distance matrix heatmap gives us an idea about the similarities and dissimilarities between samples where samples are clustered based on distances
+![distanceheatmap](https://user-images.githubusercontent.com/92435273/139533645-867b8913-9a7a-4c17-95b9-fab705716162.png)
+
+After this quality check, to investigate differential gene expression an MA plot was made and shows biological significance(log fold-change (logFC) on y axis vs log average expression (logCPM) and significantly differentially expressed genes are shown in blue 
+
+![MAdrosophi](https://user-images.githubusercontent.com/92435273/139533603-287a7182-3682-49ff-b810-442b4616696c.png)
+
+A heatmap for normalized counts for the differentially expressed genes (first top 30 then all 1091 DEGs) was drawn and distinct profiles were observed for treated vs. unreated samples 
+![heatmap30](https://user-images.githubusercontent.com/92435273/139533660-271f08d7-6069-4209-be0c-ba05b4c743a3.png)
+
+![heatmap1091](https://user-images.githubusercontent.com/92435273/139533675-8358de00-2136-4757-8cee-96a8f1725555.png)
+
+
 
 ## 6. Fuctional Enrichment Analysis using goseq
 
