@@ -22,6 +22,15 @@ Method
 The FastQ files of the dataset were downloaded from [here](https://zenodo.org/record/4541751)
 
 ## 2. Quality Control : FastQC and Cutadapt
+
+For sample GSM461177, 1.8% of bp was trimmed
+
+![GSM461177 Cutadapt](https://user-images.githubusercontent.com/68198076/139517060-eb13c924-e5e0-41f9-ab14-1e73d7340971.PNG
+
+For sample SSM461180, 6.8% of bp was trimmed
+
+![GSM461180 Cutadapt](https://user-images.githubusercontent.com/68198076/139517153-6a2b55ee-1f36-453b-ad77-bee832eb07aa.PNG)
+
 ## 3. Mapping: RNA STAR visualized using IGV
 We have used the trimmed or quality controlled sequences for mapping, it was necessary to know from where the sequence originated from in the genome. Since in this tutorial authors used the Drosophila melanogaster cells, we used the reference genome of Drosophila melanogaster dm6.
 Now in eukaryotic genomes, transcriptomes arise from processed mRNA, i.e Spliced. So to map efficiently we imported the spliced annotation of D. melanogaster and used RNA STAR for mapping.
